@@ -532,6 +532,7 @@ header form .col-md-2:nth-child(3) {
   }
   .content .text__box--button {
     margin-top: 6% !important;
+    margin-bottom: 5% !important;
   }
   .about .container .tile {
     height: 60vh !important;
