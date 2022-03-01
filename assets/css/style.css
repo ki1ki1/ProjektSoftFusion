@@ -525,7 +525,7 @@ header form .col-md-2:nth-child(3) {
   margin-top: 5%;
 }
 
-@media (min-width: 400px) and (max-width: 1024px) {
+@media (min-width: 380px) and (max-width: 1024px) {
   .content .title {
     display: block;
     margin-top: 30%;

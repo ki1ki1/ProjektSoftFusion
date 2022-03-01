@@ -472,16 +472,7 @@ header{
         margin-top: 5%;
     }
 }
-@media (min-width: 390px) and (max-width: 580px){
-    .about{
-        .container{
-            .tile{
-                height: 60vh !important;
-            }
-        }
-    }
-}
-@media (min-width: 400px) and (max-width: 1024px){
+@media (min-width: 380px) and (max-width: 1024px){
     .content{
         .title{
             display:block;
