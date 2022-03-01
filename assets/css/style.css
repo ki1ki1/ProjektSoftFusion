@@ -530,6 +530,12 @@ header form .col-md-2:nth-child(3) {
     display: block;
     margin-top: 30%;
   }
+  .content .text__box--button {
+    margin-top: 8% !important;
+  }
+  .about .container .tile {
+    height: 60vh !important;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 1024px) {
