@@ -525,6 +525,178 @@ header form .col-md-2:nth-child(3) {
   margin-top: 5%;
 }
 
+.promo {
+  margin-top: 5%;
+  background-color: #FAFBFD;
+}
+
+.promo .container .promo__title {
+  display: block;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 10px;
+  color: #8293C0;
+}
+
+.promo .container h1 {
+  text-align: center;
+  padding-bottom: 3%;
+  color: #153486;
+}
+
+.promo .container .promo__text {
+  display: block;
+  width: 100%;
+  padding-bottom: 10%;
+  text-align: center;
+  font-style: italic;
+  color: #8293C0;
+}
+
+.aparts .container {
+  padding-top: 3%;
+}
+
+.aparts .container .aparts__text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0C3B8D;
+}
+
+.aparts .container .aparts__sortText {
+  float: right;
+  font-size: 14px;
+  font-style: italic;
+  color: #838C9C;
+}
+
+.aparts .container .apartsTile {
+  margin-top: 5%;
+}
+
+.aparts .container .apartsTile .apartsTile__topText {
+  font-weight: 600;
+  font-size: 24px;
+  color: #0C3B8D;
+}
+
+.aparts .container .apartsTile .apartsTile__downText {
+  font-weight: 600;
+  font-size: 42px;
+  color: #0C3B8D;
+}
+
+.aparts .container .apartsTile .apartsTile__centerTopText {
+  display: block;
+  width: 60%;
+  margin-top: 3%;
+  margin-left: 25%;
+  padding: 1%;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  color: #2C61E9;
+  background-color: #E8F0FF;
+  border-radius: 4px;
+}
+
+.aparts .container .apartsTile .apartsTile__info {
+  color: #8490A5;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.aparts .container .apartsTile .apartsTile__data {
+  font-style: italic;
+  font-size: 12px;
+  color: #153486;
+  font-weight: 300;
+}
+
+.aparts .container .apartsTile .apartsTile__border {
+  border-right: 1px solid #C8CDD640;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.aparts .container .apartsTile .apartsTile__border:last-child {
+  border-right: 0px;
+}
+
+.aparts .container .apartsTile .apartsTile__right {
+  background-color: #42CBD3;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.aparts .container .apartsTile .apartsTile__right .apartsTile__price {
+  display: block;
+  padding-top: 4%;
+  padding-left: 10%;
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.aparts .container .apartsTile .apartsTile__right .apartsTile__crossedoutprice {
+  display: block;
+  margin-top: -15%;
+  padding-left: 10%;
+  padding-bottom: 8%;
+  font-style: italic;
+  font-weight: 300;
+  color: white;
+  -webkit-text-decoration: line-through #DC3571;
+          text-decoration: line-through #DC3571;
+}
+
+.aparts .container .apartsTile .apartsTile__right .apartsTile__button {
+  display: block;
+  height: 60%;
+  padding: 10% 20% 10% 20%;
+  margin-top: 15%;
+  margin-right: 10%;
+  text-transform: uppercase;
+  background-color: #DC3571;
+  color: white;
+  font-weight: 700;
+  border: 0;
+  border-radius: 4px;
+}
+
+.aparts .container .apartsTile .apartsTile__right i {
+  display: block;
+  margin-top: 45px;
+  margin-left: 10px;
+  color: white;
+}
+
+.aparts .container .apartsTile .apartsTile__right--blue {
+  background-color: #2C61E9;
+}
+
+.aparts .container .apartsTile .apartsTile__right--yellow {
+  background-color: #F5BD2D;
+}
+
+.aparts .container .apartsTile .apartsTile__right--navy {
+  background-color: #153486;
+}
+
+.aparts .container .apartsTile .apartsTile__right--pink {
+  background-color: #DC3571;
+}
+
+.aparts .container .apartsTile .apartsTile__right--pink .apartsTile__button {
+  border: 1px solid white;
+}
+
 @media (min-width: 380px) and (max-width: 1024px) {
   .content .title {
     display: block;
@@ -676,5 +848,42 @@ header form .col-md-2:nth-child(3) {
   footer h6 {
     padding-top: 15% !important;
   }
+}
+
+.footerSocialLinks {
+  position: fixed;
+  bottom: 5%;
+  left: 92%;
+}
+
+.footerSocialLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 72px;
+  height: 72px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 100px;
+  color: white;
+  font-size: 24px;
+}
+
+.footerSocialLink--blue {
+  background-color: #42CBD3;
+}
+
+.footerSocialLink--yellow {
+  background-color: #F5BD2D;
+}
+
+.footerSocialLink--pink {
+  background-color: #DC3571;
 }
 /*# sourceMappingURL=style.css.map */
