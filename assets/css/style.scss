@@ -473,7 +473,6 @@ header{
     }
 }
 .promo{
-    margin-top: 5%;
     background-color: $news_bg;
     .container{
         .promo__title{
@@ -544,10 +543,13 @@ header{
                     
             }
             .apartsTile__info{
+                display: block;
+                width: 100%;
                 color: $form_text;
                 font-style: italic;
                 font-weight: 300;
                 font-size: 14px;
+                
             }
             .apartsTile__data{
                 font-style: italic;
@@ -624,6 +626,98 @@ header{
         }
     }
 }
+
+@media (max-width: 760px){
+    .promo{
+        padding-top: 15%;
+    }
+    .aparts{
+        .container{
+            .aparts__left{
+                width: 60%;
+            }
+            .aparts__right{
+                width: 40%;
+            }
+            .aparts__text{
+                font-size: 18px;
+            }
+            .apartsTile{
+                background-color: $news_bg;
+                .apartsTile__topText{
+                    display: block;
+                    padding-top: 20px;
+                    font-size: 32px;
+                }
+                .apartsTile__downText{
+                    display: block;
+                    font-size: 40px;
+                    margin-bottom: 15px;
+                    
+                }
+                .apartsTile__left{
+                    border-bottom: 1px solid #C8CDD640;
+                }
+                .apartsTile__centerTopText{
+                    display: none;
+                }
+                .apartsTile__center{
+                    .apartsTile__border{
+                        padding-top: 5px;
+                        width: 33%;
+                        margin-bottom: 20px;
+                        .apartsTile__info{
+                            display: none;
+                        }
+                        .apartsTile__data{
+                            font-size: 16px;
+                            color: $box_color;
+                        }
+                    }
+                }
+                .apartsTile__right{
+                    .apartsTile__price{
+                        font-size: 28px;
+                        text-align: center;
+                        margin-bottom: 30px;
+                        padding-left: 0;
+                        padding-top: 0;
+                        
+                    }
+                    .apartsTile__crossedoutprice{
+                        font-size: 18px;
+                        text-align: center;
+                        padding-left: 0;
+                        margin-top: -50px;
+                        
+                    }
+                    .apartsTile__button{
+                        margin: 0 auto;
+                        font-size: 20px;
+                        padding: 20px 90px 50px 90px;
+                        
+                    }
+                    .apartsTile__order{
+                        order: 2;
+                    }
+                    .apartsTile__promo{
+                        padding-top: 20px;
+                    }
+                    i{
+                        display: none;
+                    }
+                }
+                
+            }
+        }
+    }
+    .footer{
+        .footerSocialLinks{
+            display: none;
+        }
+    }
+}
+
 @media (min-width: 380px) and (max-width: 1024px){
     .content{
         .title{
